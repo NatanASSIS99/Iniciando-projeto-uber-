@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uber</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 50px;
+    text-align: center;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+
+    <script>
+        // script.js
+
+// Aguarda o carregamento completo do DOM
+document.addEventListener('DOMContentLoaded', function() {
+    // Obtém o botão pelo ID
+    var button = document.getElementById('meuBotao');
+
+    // Adiciona um ouvinte de evento de clique ao botão
+    button.addEventListener('click', function() {
+        // Exibe uma mensagem quando o botão é clicado
+        alert('O botão foi clicado!');
+    });
+});
+    </script>
+</head>
+<body>
+    <header>
+        <!-- Barra de navegação -->
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Viagens</a></li>
+                <li><a href="#">Preços</a></li>
+                <!-- Outros links de navegação -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Conteúdo principal -->
+        <section>
+            <h1>Faça viagens seguras e confiáveis com a Uber</h1>
+            <p>Encontre viagens acessíveis e convenientes para onde você precisar.</p>
+            <!-- Outros elementos como botões de chamada para ação (call-to-action) -->
+        </section>
+    </main>
+    <footer>
+        <!-- Rodapé da página -->
+        <p>&copy; 2024 Uber. Todos os direitos reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
